@@ -1,5 +1,5 @@
 # gen_rsa
-Generate textbook integer-type RSA schema for fun/CTFs
+Generate textbook integer-type RSA schema for fun/CTFs. Tested for primes numbers up to 300 digits.
 
 ## usage
 
