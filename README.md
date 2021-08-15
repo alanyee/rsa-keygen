@@ -4,7 +4,7 @@ Generate textbook integer-type RSA schema for fun/[CTF](https://ctftime.org/)s. 
 ## usage
 
 ```
-usage: rsa.py [-h] [-m MESSAGE] [-p prime prime]
+usage: rsa-keygen [-h] [-m MESSAGE] [-p prime prime] [-e exponent]
 
 CTF RSA Generator
 
@@ -13,5 +13,7 @@ optional arguments:
   -m MESSAGE, --message MESSAGE
                         Message to be encrypted and decrypted
   -p prime prime, --primes prime prime
+                        Load from two big prime numbers
+  -e exponent, --exponent exponent
                         Load from two big prime numbers
  ```
