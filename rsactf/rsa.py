@@ -9,11 +9,17 @@ def _parse_args():
                         help="Message to be encrypted and decrypted")
     parser.add_argument("-p", "--primes", nargs=2, type=int, metavar="prime",
                         help="Load from two big prime numbers")
-    return parser.parse_args()
+    parser.add_argument("-e", "--exponent", type=int, metavar="exponent", default=65537,
+                        help="Load from exponent")
+
+    return parser, parser.parse_args()
 
 def main():
-    args = _parse_args()
-    e = 65537
+    parser, args = _parse_args()
+    if len(sys.argv) == 1:
+        parser.print_help()
+        sys.exit()
+    e = args.exponent
     if args.message:
         m = int(args.message.encode().hex(), 16)
         print("m:")
