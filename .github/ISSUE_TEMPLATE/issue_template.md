@@ -1,6 +1,6 @@
 ---
 name: rsa-keygen Issue
-about: ''
+about: 'Template for submitting an issue'
 title: ''
 labels: ''
 assignees: ''
