@@ -1,6 +1,6 @@
 ---
-name: rsa-keygen Issue
-about: 'Template for submitting an issue'
+name: bug template
+about: 'Template for submitting a bug'
 title: ''
 labels: ''
 assignees: ''
@@ -26,15 +26,11 @@ Please answer the following questions for yourself before submitting an issue. *
 
 # Bug Details
 
-(Please help provide information about the failure if this is a bug. If it is not a bug, please remove the rest of this template.)
-
 ## Steps to Reproduce
 
 (Please provide detailed steps for reproducing the issue.)
 
 1. 
-2. 
-3.
 
 ## Context
 
