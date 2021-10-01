@@ -16,7 +16,7 @@ def _parse_args():
     parser.add_argument("-ls", "--prime-lengths", nargs=2, type=int, metavar="prime_lengths",
                         help="Generate prime numbers from the given length (in bytes). Takes precedence over prime_length.")
     parser.add_argument("-p", "--primes", nargs=2, type=int, metavar="prime", default=[0, 0],
-                        help="Load from two big prime numbers")
+                        help="Load from two big prime numbers. Takes precedence over prime_length and prime_lengths.")
     parser.add_argument("-e", "--exponent", type=int, metavar="exponent", default=65537,
                         help="Load from exponent")
 

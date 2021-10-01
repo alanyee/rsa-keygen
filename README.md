@@ -16,10 +16,9 @@ optional arguments:
   -l prime_length, --prime-length prime_length
                         Generate both prime numbers with the given length (in bytes)
   -ls prime_lengths prime_lengths, --prime-lengths prime_lengths prime_lengths
-                        Generate prime numbers from the given length (in bytes). Takes
-                        precedence over prime_length.
+                        Generate prime numbers from the given length (in bytes). Takes precedence over prime_length.
   -p prime prime, --primes prime prime
-                        Load from two big prime numbers
+                        Load from two big prime numbers. Takes  precedence over prime_length and prime_lengths.
   -e exponent, --exponent exponent
                         Load from exponent
  ```
