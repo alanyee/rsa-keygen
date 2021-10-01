@@ -25,7 +25,6 @@ def _parse_args():
 
 def main():
     parser, args = _parse_args()
-    print(args)
     if len(sys.argv) == 1:
         parser.print_help()
         sys.exit()
