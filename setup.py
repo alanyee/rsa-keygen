@@ -19,10 +19,11 @@ setup(
     author='Alan Yee',
     author_email='alanyee@users.noreply.github.com',
     url='https://github.com/alanyee/rsa-keygen',
-    packages=find_packages(exclude=('tests', 'docs')),
+    packages=find_packages(where='rsactf',include=('Cryptodome'),exclude=('tests', 'docs')),
     include_package_data=True,
     python_requires='>=3.8',
     extras_require={
+        'normal': ['pycryptodomex'],
         'testing': ["pylint", "pytest", "mypy"]
     }
 )
