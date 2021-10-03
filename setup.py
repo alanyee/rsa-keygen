@@ -22,7 +22,5 @@ setup(
     include_package_data=True,
     python_requires=">=3.8",
     install_requires=["pycryptodomex"],
-    extras_require={
-        "testing": ["pylint", "pytest", "mypy"]
-    }
+    extras_require={"testing": ["pylint", "pytest", "mypy"]},
 )
