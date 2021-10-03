@@ -8,9 +8,9 @@ with open("README.md") as f:
 setup(
     name="rsa-keygen",
     entry_points={
-      "console_scripts": [
-          "rsa-keygen = rsactf.rsa:main",
-      ],
+        "console_scripts": [
+            "rsa-keygen = rsactf.rsa:main",
+        ],
     },
     version="0.0.1",
     description="Generate large textbook integer-type RSA schema",
