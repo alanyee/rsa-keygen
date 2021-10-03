@@ -5,7 +5,7 @@ Generate textbook integer-type RSA schema for fun/[CTF](https://ctftime.org/)s. 
 
 ## usage
 
-```
+```text
 usage: rsa-keygen [-h] [-m MESSAGE] [-l prime_length] [-ls prime_lengths prime_lengths] [-p prime prime] [-e exponent]
 
 CTF RSA Generator
