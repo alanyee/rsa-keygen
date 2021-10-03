@@ -2,9 +2,9 @@ name: Lint Code Base
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -22,7 +22,6 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
-          # GITHUB_TOKEN is need by GitHub Super-Linter as it will mark the status of each individual linter run in the Checks section of a pull request. 
+          # GITHUB_TOKEN is need by GitHub Super-Linter as it will mark the status of each individual linter run in the Checks section of a pull request.
           # Without this you will only see the overall status of the full run.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-        
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
