@@ -1,6 +1,7 @@
 import argparse
 import math
 import sys
+
 from Cryptodome.Util import number
 
 N_LENGTH = 2048
