@@ -1,4 +1,5 @@
 # rsa-keygen
+
 ![Style Check](https://github.com/alanyee/rsa-keygen/actions/workflows/linter.yml/badge.svg)
 
 Generate textbook integer-type RSA schema for fun/[CTF](https://ctftime.org/)s. Tested for primes numbers up to 300 digits.
@@ -28,12 +29,9 @@ optional arguments:
 
 For all the examples, the message to be encrypted and decrypted is provided by passing the `-m` or the `--message` flag.
 
-1. To generate the keys by specifying the two prime numbers to be used, pass the `-p` or the `--primes` flag:
-    <details>
-    <summary>Show example</summary>
-    <p>
-    
-    ```
+- To generate the keys by specifying the two prime numbers to be used, pass the `-p` or the `--primes` flag:
+
+    ```console
     $ rsa-keygen -m "The message goes here" -p 17 13
     m:
     123362127776045355325184496631186371083667333542501
@@ -46,20 +44,15 @@ For all the examples, the message to be encrypted and decrypted is provided by p
     c:
     21
     ```
-   This example uses the two prime numbers 17 and 13 to generate the keys.
+
+    This example uses the two prime numbers 17 and 13 to generate the keys.
 
     The order in  which the arguments are passed don't matter. The command below will work just like the above example.  
-    `$ rsa-keygen -p 17 13 -m "The message goes here"`
-    </p>
-    </details>  
-  
+        `$ rsa-keygen -p 17 13 -m "The message goes here"`
 
-2. To generate the keys by specifying the lengths(the size in bytes) of two prime numbers to be used, pass the `-ls` or the `--prime-lengths` flag.
-    <details>
-    <summary>Show example</summary>
-    <p>
-   
-    ```
+- To generate the keys by specifying the lengths(the size in bytes) of two prime numbers to be used, pass the `-ls` or the `--prime-lengths` flag.
+
+    ```console
     $ rsa-keygen -m "The message goes here" -ls 32 64 
     m:
     123362127776045355325184496631186371083667333542501
@@ -74,17 +67,12 @@ For all the examples, the message to be encrypted and decrypted is provided by p
     c:
     21952363551535066551250980471
     ```
-    </p>
+
     This example uses one prime number having the size of 32 bytes while the other prime number having the size of 64 bytes.
-    </details>  
 
+- If length of the two prime numbers being used is the same, we can pass the `-l` or the `--prime-length` flag.
 
-3. If length of the two prime numbers being used is the same, we can pass the `-l` or the `--prime-length` flag.
-    <details>
-    <summary>Show example</summary>
-    <p>
-   
-    ```
+    ```console
     $ rsa-keygen -m "The message goes here" -l 256 
     m:
     123362127776045355325184496631186371083667333542501
@@ -99,16 +87,10 @@ For all the examples, the message to be encrypted and decrypted is provided by p
     c:
     1957840327725554014766627662755023947129607290378923521502432676947466991128225062897106936657555488818065445667019180444456599814566964260723515825205380
     ```
-    </p>
-    </details> 
-   
 
-4. If the key is to be generated from a specified exponent, pass the `-e` or the `--exponent` flag:
-    <details>
-    <summary>Show example</summary>
-    <p>
-   
-    ```
+- If the key is to be generated from a specified exponent, pass the `-e` or the `--exponent` flag:
+
+    ```console
     $ rsa-keygen -m "The message goes here" -l 32 -e 65537
     m:
     123362127776045355325184496631186371083667333542501
@@ -123,5 +105,3 @@ For all the examples, the message to be encrypted and decrypted is provided by p
     c:
     6233734676688870585
     ```
-    </p>
-    </details>
