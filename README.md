@@ -53,7 +53,6 @@ For all the examples, the message to be encrypted and decrypted is provided by p
     </p>
     </details>  
   
-<br>
 
 2. To generate the keys by specifying the lengths(the size in bytes) of two prime numbers to be used, pass the `-ls` or the `--prime-lengths` flag.
     <details>
@@ -79,7 +78,6 @@ For all the examples, the message to be encrypted and decrypted is provided by p
     This example uses one prime number having the size of 32 bytes while the other prime number having the size of 64 bytes.
     </details>  
 
-<br>
 
 3. If length of the two prime numbers being used is the same, we can pass the `-l` or the `--prime-length` flag.
     <details>
@@ -104,7 +102,6 @@ For all the examples, the message to be encrypted and decrypted is provided by p
     </p>
     </details> 
    
-<br>
 
 4. If the key is to be generated from a specified exponent, pass the `-e` or the `--exponent` flag:
     <details>
