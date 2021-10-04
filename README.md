@@ -49,7 +49,7 @@ For all the examples, the message to be encrypted and decrypted is provided by p
    This example uses the two prime numbers 17 and 13 to generate the keys.
 
     The order in  which the arguments are passed don't matter. The command below will work just like the above example.  
-    `$ rsa-keygen -p 17 13 -m "The message goes here`
+    `$ rsa-keygen -p 17 13 -m "The message goes here"`
     </p>
     </details>  
   
