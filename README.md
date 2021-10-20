@@ -1,5 +1,7 @@
 # rsa-keygen
 
+[How RSA encryption works](https://cran.r-project.org/web/packages/openssl/vignettes/bignum.html)
+
 ![Style Check](https://github.com/alanyee/rsa-keygen/actions/workflows/linter.yml/badge.svg)
 
 Generate textbook integer-type RSA schema for fun/[CTF](https://ctftime.org/)s. Tested for primes numbers up to 300 digits.
