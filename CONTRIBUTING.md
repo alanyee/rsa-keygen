@@ -2,11 +2,7 @@
 
 Thank you for investing your time in contributing to our project! :sparkles:. 
 
-Read our Code of Conduct to keep our community approachable and respectable.
-
 In this guide you will get an overview of the contribution workflow from opening an issue, creating a PR, reviewing, and merging the PR.
-
-Use the table of contents icon  on the top left corner of this document to get to a specific section of this guide quickly.
 
 ## New contributor guide
 
@@ -41,9 +37,7 @@ Click **Make a contribution** at the bottom of any docs page to make small chang
 
 #### Make changes locally
 
-1. Install Git LFS
-
-2. Fork the repository.
+1. Fork the repository.
 - Using GitHub Desktop:
   - Getting started with GitHub Desktop will guide you through setting up Desktop.
   - Once Desktop is set up, you can use it to fork the repo
@@ -53,7 +47,7 @@ Click **Make a contribution** at the bottom of any docs page to make small chang
 - GitHub Codespaces:
   - Fork, edit, and preview using GitHub Codespaces without having to install and run the project locally.
 
-3. Install or update to **Node.js v16**. For more information, see the development guide.
+2. Install or update to **Node.js v16**. For more information, see the development guide.
 
 ### Commit your update
 
