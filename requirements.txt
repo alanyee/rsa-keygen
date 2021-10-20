@@ -1,0 +1,2 @@
+pycryptodomex==3.10.4
+-e git+https://github.com/alanyee/rsa-keygen@565ffc467aaba3ad11731c95323e78ad297f7f16#egg=rsa_keygen
