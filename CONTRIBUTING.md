@@ -37,7 +37,8 @@ Click **Make a contribution** at the bottom of any docs page to make small chang
 
 #### Make changes locally
 
-1. Fork the repository.
+1. Installing Git LFS is not needed. Cloning and forking is all you need.
+2. Fork the repository.
 - Using GitHub Desktop:
   - Getting started with GitHub Desktop will guide you through setting up Desktop.
   - Once Desktop is set up, you can use it to fork the repo
